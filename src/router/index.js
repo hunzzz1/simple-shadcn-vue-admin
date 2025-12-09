@@ -1,9 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import AppBasis from '@/layout/AppBasis.vue'
 
+
 // 这里统一导入菜单用到的图标
 import { LayoutDashboard, BarChart3, Users, Settings, FileText } from 'lucide-vue-next'
-// 123
+
+
 export default function setupRouter() {
     const routes = [
         {
